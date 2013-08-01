@@ -8,6 +8,6 @@
 //}
 
 function helloWorld(){
-  ${"#helloWorld"}.html("You made it!");
+  ${#helloWorld}.html("You made it!");
 }
 
