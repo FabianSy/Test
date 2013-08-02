@@ -4,7 +4,7 @@ document.addEventListener("deviceready", onDeviceReady, false);
 // device APIs are available
 function onDeviceReady() {
     navigator.splashscreen.show();
-    setTimeout(navigator.splashscreen.hide(), 1000);
+    navigator.splashscreen.hide();
 }
 
 function helloWorld(){
